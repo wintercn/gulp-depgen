@@ -1,0 +1,38 @@
+{
+  "name": "gulp-depgen",
+  "version": "0.1.0",
+  "description": "Use to generate dependencies for package.json",
+  "license": "MIT",
+  "repository": "wintercn/gulp-depgen",
+  "author": {
+    "name": "winter",
+    "email": "csf178@gmail.com"
+  },
+  "engines": {
+    "node": ">=4.2.2"
+  },
+  "scripts": {},
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "package.json",
+    "generator",
+    "generate",
+    "auto-detect",
+    "rewriting"
+  ],
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "crequire": "^1.6.0",
+    "fs": "^0.0.2",
+    "npm": "^3.4.1",
+    "through2": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
